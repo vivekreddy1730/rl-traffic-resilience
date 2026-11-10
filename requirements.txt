@@ -1,0 +1,26 @@
+# Pinned versions = the environment that produced the results in results/
+# (Python 3.11.9, Windows 11; see results/phase1_baseline_v2/environment.txt).
+# Supported Python: 3.10 - 3.12  (scikit-learn 1.5.0 is pinned because the saved
+# diagnosis classifier results/phase2_shifts/diagnosis_classifier.joblib was pickled with it).
+
+# --- Traffic simulator (SUMO 1.27.1) + its Python API -------------------------
+# eclipse-sumo ships the SUMO binaries (sumo, sumo-gui), so no separate installer
+# is needed. If you already have SUMO 1.27.1 installed and SUMO_HOME set, that is used first.
+eclipse-sumo==1.27.1
+sumo-data==1.27.1
+traci==1.27.1
+sumolib==1.27.1
+
+# --- Reinforcement learning / ML --------------------------------------------
+torch==2.13.0
+numpy==1.26.4
+scikit-learn==1.5.0
+scipy==1.17.1
+joblib==1.5.3
+
+# --- Config, plotting, logging ----------------------------------------------
+PyYAML==6.0.3
+pydantic==2.13.4
+matplotlib==3.11.1
+typer==0.27.2
+rich==13.9.4
