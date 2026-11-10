@@ -1,0 +1,64 @@
+# ---- Python / virtual environments ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+tsc_env/
+*.egg-info/
+.pytest_cache/
+
+# ---- Secrets ----
+.env
+*.env
+*.pem
+*.key
+
+# ---- Editors, OS, OneDrive ----
+.vscode/
+.idea/
+desktop.ini
+Thumbs.db
+.DS_Store
+~$*
+*.tmp
+.~lock.*
+
+# ---- Vidali upstream git history (kept locally only) ----
+Deep-QLearning-Agent-for-Traffic-Signal-Control/.git_upstream_backup/
+
+# ---- Generated before every simulation ----
+Deep-QLearning-Agent-for-Traffic-Signal-Control/intersection/episode_routes.rou.xml
+/intersection/
+
+# ---- Raw / bulky SUMO outputs and caches (re-creatable) ----
+results/**/tripinfo*.xml
+results/**/tripinfos/
+results/**/*fcd*.xml
+results/**/*.pkl
+
+# ---- Duplicates: the frozen checkpoints live in models/ ----
+results/phase1_baseline/checkpoints/
+results/phase1_baseline_v2/checkpoints/
+
+# ---- Outputs of the demo / re-run scripts ----
+results/demo_outputs/
+results/retrain_phase1/
+
+# ---- LaTeX build files, backups and superseded material ----
+report/*.aux
+report/*.log
+report/*.bbl
+report/*.blg
+report/*.out
+report/*.synctex.gz
+report/main_backup_before_author_fix.tex
+report/report_overleaf.zip
+report/preview/
+report/access.tex
+report/access.pdf
+report/main.pdf
+report/Final_Paper_Corrected_Authors.pdf
+midreview/
+main_review/
+review/

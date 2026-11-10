@@ -1,0 +1,10 @@
+# Normalise text files, never touch binaries
+* text=auto
+*.sh   text eol=lf
+*.ps1  text eol=crlf
+*.pdf    binary
+*.png    binary
+*.pptx   binary
+*.pt     binary
+*.joblib binary
+*.zip    binary
