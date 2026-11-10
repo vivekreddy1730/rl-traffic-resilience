@@ -1,4 +1,7 @@
 \documentclass{ieeeaccess}
+% The ieeeaccess.cls caption code reads \xfigwd, which only its own \Figure macro sets.
+% Standard figure+caption is used here, so default it to 0pt (same result as before, no compile errors).
+\providecommand{\xfigwd}{0pt}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
