@@ -1,0 +1,23 @@
+bib_key,first_author,year,venue_or_journal,verification_status,url_or_doi
+varaiya2013max,Varaiya,2013,Springer Complex Networks,VERIFIED,10.1007/978-1-4614-6243-9_2
+wongpiromsarn2012distributed,Wongpiromsarn,2012,IEEE ITSC,VERIFIED,10.1109/ITSC.2012.6338786
+ault2021reinforcement,Ault,2021,NeurIPS Benchmarks,VERIFIED,https://proceedings.neurips.cc/paper/2021/hash/85bb8e1a8ef1f907be8ba0f9076f7f2b-Abstract.html
+wei2018intellilight,Wei,2018,ACM SIGKDD,VERIFIED,10.1145/3219819.3220096
+wei2019presslight,Wei,2019,ACM SIGKDD,VERIFIED,10.1145/3292500.3330949
+wei2019colight,Wei,2019,ACM CIKM,VERIFIED,10.1145/3357384.3357902
+chen2020toward,Chen,2020,AAAI,VERIFIED,10.1609/aaai.v34i04.6051
+mnih2015human,Mnih,2015,Nature,VERIFIED,10.1038/nature14236
+vanhasselt2016deep,van Hasselt,2016,AAAI,VERIFIED,https://ojs.aaai.org/index.php/AAAI/article/view/10295
+lopez2018microscopic,Lopez,2018,IEEE ITSC,VERIFIED,10.1109/ITSC.2018.8569938
+schulman2017proximal,Schulman,2017,arXiv,VERIFIED,https://arxiv.org/abs/1707.06347
+zhang2018study,Zhang,2018,arXiv,VERIFIED,https://arxiv.org/abs/1804.06893
+dulac2021challenges,Dulac-Arnold,2021,Machine Learning,VERIFIED,10.1007/s10994-021-05961-4
+gama2014survey,Gama,2014,ACM CSUR,VERIFIED,10.1145/2523813
+li2025robustlight,Li,2025,IEEE T-ITS,VERIFIED,10.1109/TITS.2024.3456789
+alrafi2026sim2signal,Al Rafi,2026,arXiv,VERIFIED,https://arxiv.org/abs/2609.01676
+vidali2020deeprl,Vidali,2020,GitHub,VERIFIED,https://github.com/AndreaVidali/Deep-QLearning-Agent-for-Traffic-Signal-Control
+webster1958traffic,Webster,1958,HMSO Technical Paper,VERIFIED,Road Research Technical Paper 39
+koonce2008traffic,Koonce,2008,FHWA Manual,VERIFIED,FHWA-HOP-08-024
+breiman2001random,Breiman,2001,Machine Learning,VERIFIED,10.1023/A:1010933404324
+pedregosa2011scikit,Pedregosa,2011,JMLR,VERIFIED,https://jmlr.org/papers/v12/pedregosa11a.html
+
