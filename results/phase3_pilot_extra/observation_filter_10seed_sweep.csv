@@ -1,0 +1,11 @@
+seed,nominal_wait,shifted_unmitigated_wait,wait_increase_ratio,adaptive_wait,delta_wait,pct_delta,max_anomaly_score,threshold,monitor_detected,anomaly_detected_steps,first_detection_step,obs_filter_active_steps,dominant_diagnosis
+4,36.3,152.19,4.19,131.89,-20.3,-13.34,2.3735,2.1699,True,16,164,16,Nominal
+5,41.44,112.94,2.73,112.78,-0.16,-0.14,2.2622,2.1699,True,27,147,27,Nominal
+6,39.8,111.03,2.79,111.03,0.0,0.0,2.0494,2.1699,False,0,-1,0,Nominal
+7,35.05,180.66,5.15,184.08,3.43,1.9,2.1956,2.1699,True,1,172,1,Nominal
+10,36.71,101.04,2.75,101.04,0.0,0.0,1.8919,2.1699,False,0,-1,0,Nominal
+11,41.89,104.88,2.5,104.88,0.0,0.0,2.1832,2.1699,False,0,-1,0,Nominal
+12,46.43,127.61,2.75,121.11,-6.49,-5.09,2.2884,2.1699,True,22,152,22,Nominal
+13,37.17,93.78,2.52,93.78,0.0,0.0,1.7197,2.1699,False,0,-1,0,Nominal
+14,38.27,172.69,4.51,170.5,-2.19,-1.27,2.3754,2.1699,True,15,180,15,Nominal
+15,44.36,97.33,2.19,97.33,0.0,0.0,1.7566,2.1699,False,0,-1,0,Nominal

@@ -1,0 +1,27 @@
+{
+  "fpr_3sigma": 0.0,
+  "final_multiplier": 3.0,
+  "final_detection_threshold": 2.1699292191043464,
+  "shifts_evaluated": [
+    {
+      "shift_name": "Observation Shift (p=0.20, lane 0 dropout)",
+      "tpr": 1.0,
+      "avg_latency_steps": 16.5
+    },
+    {
+      "shift_name": "Transition Shift (50% max speed & decel)",
+      "tpr": 1.0,
+      "avg_latency_steps": 18.5
+    },
+    {
+      "shift_name": "Action Shift (1-step actuator latency)",
+      "tpr": 1.0,
+      "avg_latency_steps": 91.5
+    },
+    {
+      "shift_name": "Reward Shift (Switch penalty=10, queue imbalance=2)",
+      "tpr": 1.0,
+      "avg_latency_steps": 11.0
+    }
+  ]
+}

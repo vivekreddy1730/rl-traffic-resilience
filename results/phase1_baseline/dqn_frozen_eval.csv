@@ -1,0 +1,6 @@
+controller,seed,epsilon,sum_neg_reward,cumulative_wait,avg_waiting_time,avg_delay,avg_queue_length,throughput_steps,elapsed_s
+DQN_frozen_eval,1,0.0,-5139.0,13638,31.8645,12.007,2.5256,428,7.7
+DQN_frozen_eval,2,0.0,-4185.0,11313,27.0,9.9881,2.095,419,5.16
+DQN_frozen_eval,3,0.0,-3868.0,10641,26.145,9.5037,1.9706,407,8.11
+DQN_frozen_eval,4,0.0,-4810.0,12464,28.8519,11.1343,2.3081,432,5.09
+DQN_frozen_eval,5,0.0,-5465.0,13305,30.7986,12.6505,2.4639,432,4.5

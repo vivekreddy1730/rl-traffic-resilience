@@ -1,0 +1,17 @@
+controller,metric,mean,std
+DQN,avg_waiting_time,30.3389,1.7735
+DQN,avg_delay,11.7105,1.1792
+DQN,avg_queue_length,2.3599,0.1461
+DQN,sum_neg_reward,-4916.86,483.5883
+FixedTime,avg_waiting_time,236.655,8.3341
+FixedTime,avg_delay,190.6523,6.5282
+FixedTime,avg_queue_length,22.789,0.8025
+FixedTime,sum_neg_reward,-99139.2,3394.6767
+MaxPressure,avg_waiting_time,924.3029,137.0757
+MaxPressure,avg_delay,883.0683,137.0032
+MaxPressure,avg_queue_length,90.0537,13.7591
+MaxPressure,sum_neg_reward,-464607.6,74137.483
+DQN_frozen_eval,avg_waiting_time,28.932,2.4285
+DQN_frozen_eval,avg_delay,11.0567,1.3232
+DQN_frozen_eval,avg_queue_length,2.2726,0.237
+DQN_frozen_eval,sum_neg_reward,-4693.4,660.9231

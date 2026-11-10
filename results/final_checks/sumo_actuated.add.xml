@@ -1,0 +1,12 @@
+<additional>
+    <tlLogic id="TL" type="actuated" programID="sumo_actuated" offset="0">
+        <phase duration="31" minDur="5" maxDur="50" state="GGGGrrrrrrGGGGrrrrrr"/>
+        <phase duration="4" state="yyyyrrrrrryyyyrrrrrr"/>
+        <phase duration="16" minDur="5" maxDur="30" state="rrrrGrrrrrrrrrGrrrrr"/>
+        <phase duration="4" state="rrrryrrrrrrrrryrrrrr"/>
+        <phase duration="31" minDur="5" maxDur="50" state="rrrrrGGGGrrrrrrGGGGr"/>
+        <phase duration="4" state="rrrrryyyyrrrrrryyyyr"/>
+        <phase duration="16" minDur="5" maxDur="30" state="rrrrrrrrrGrrrrrrrrrG"/>
+        <phase duration="4" state="rrrrrrrrryrrrrrrrrry"/>
+    </tlLogic>
+</additional>

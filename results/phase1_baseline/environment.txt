@@ -1,0 +1,8 @@
+Phase 1 — Environment Info
+========================================
+Date          : 2026-09-10 10:31:24
+OS            : Windows-10-10.0.26200-SP0
+Python        : 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+PyTorch       : 2.13.0+cpu
+NumPy         : 1.26.4
+SUMO          : Eclipse SUMO sumo 1.27.1

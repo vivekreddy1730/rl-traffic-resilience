@@ -1,0 +1,84 @@
+{
+  "MaxPressure": {
+    "controller": "MaxPressure",
+    "seed": 1,
+    "ep_seed": 10000,
+    "action_histogram": {
+      "0": 161,
+      "2": 354
+    },
+    "vehicles_departed": 0,
+    "vehicles_arrived": 0,
+    "vehicles_still_in_net": 132,
+    "teleports": 0,
+    "cumulative_wait": 514154,
+    "decision_count": 515,
+    "pipeline_avg_wait": 998.3573,
+    "tripinfo_file": "C:\\Users\\palla\\OneDrive\\Documents\\REINFORCEMENT LEARNING\\results\\diagnostics\\tripinfo_maxpressure.xml",
+    "tripinfo_stats": {
+      "vehicles_completed": 867,
+      "mean_waiting_time_per_vehicle_s": 19.37,
+      "median_waiting_time_s": 2.0,
+      "max_waiting_time_s": 995.0,
+      "mean_travel_time_s": 139.63,
+      "mean_time_loss_s": 28.96
+    },
+    "total_actions_logged": 515
+  },
+  "FixedTime": {
+    "controller": "FixedTime",
+    "seed": 1,
+    "ep_seed": 10000,
+    "action_histogram": {
+      "0": 130,
+      "1": 130,
+      "2": 130,
+      "3": 130
+    },
+    "vehicles_departed": 0,
+    "vehicles_arrived": 0,
+    "vehicles_still_in_net": 0,
+    "teleports": 0,
+    "cumulative_wait": 120041,
+    "decision_count": 520,
+    "pipeline_avg_wait": 230.8481,
+    "tripinfo_file": "C:\\Users\\palla\\OneDrive\\Documents\\REINFORCEMENT LEARNING\\results\\diagnostics\\tripinfo_fixedtime.xml",
+    "tripinfo_stats": {
+      "vehicles_completed": 999,
+      "mean_waiting_time_per_vehicle_s": 120.16,
+      "median_waiting_time_s": 111.0,
+      "max_waiting_time_s": 314.0,
+      "mean_travel_time_s": 244.17,
+      "mean_time_loss_s": 133.48
+    },
+    "total_actions_logged": 520
+  },
+  "DQN_frozen_eval": {
+    "controller": "DQN_frozen_eval",
+    "seed": 1,
+    "ep_seed": 10000,
+    "action_histogram": {
+      "3": 167,
+      "1": 41,
+      "0": 127,
+      "2": 93
+    },
+    "vehicles_departed": 0,
+    "vehicles_arrived": 0,
+    "vehicles_still_in_net": 0,
+    "teleports": 0,
+    "cumulative_wait": 13638,
+    "decision_count": 428,
+    "pipeline_avg_wait": 31.8645,
+    "tripinfo_file": "C:\\Users\\palla\\OneDrive\\Documents\\REINFORCEMENT LEARNING\\results\\diagnostics\\tripinfo_dqn_frozen_eval.xml",
+    "tripinfo_stats": {
+      "vehicles_completed": 999,
+      "mean_waiting_time_per_vehicle_s": 13.65,
+      "median_waiting_time_s": 9.0,
+      "max_waiting_time_s": 120.0,
+      "mean_travel_time_s": 136.16,
+      "mean_time_loss_s": 25.47
+    },
+    "total_actions_logged": 428
+  }
+}

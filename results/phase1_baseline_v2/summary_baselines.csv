@@ -1,0 +1,9 @@
+controller,metric,mean,std,n_seeds
+FixedTime,avg_waiting_time,236.655,8.3341,5
+FixedTime,avg_delay,190.6523,6.5282,5
+FixedTime,avg_queue_length,22.789,0.8025,5
+FixedTime,sum_neg_reward,-99139.2,3394.6767,5
+MaxPressure,avg_waiting_time,172.9483,7.1827,5
+MaxPressure,avg_delay,138.1546,4.5393,5
+MaxPressure,avg_queue_length,16.7387,0.7309,5
+MaxPressure,sum_neg_reward,-72200.6,2419.9796,5

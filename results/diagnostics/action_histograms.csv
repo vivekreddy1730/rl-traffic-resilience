@@ -1,0 +1,4 @@
+controller,action_0_NS_straight,action_1_NS_left,action_2_EW_straight,action_3_EW_left,total_actions
+MaxPressure,161,0,354,0,515
+FixedTime,130,130,130,130,520
+DQN_frozen_eval,127,41,93,167,428

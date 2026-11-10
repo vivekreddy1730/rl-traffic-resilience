@@ -1,0 +1,6 @@
+controller,seed,sum_neg_reward,cumulative_wait,avg_waiting_time,avg_delay,avg_queue_length,throughput_steps,elapsed_s
+FixedTime,1,-94902.0,120041,230.8481,182.5038,22.2298,520,7.68
+FixedTime,2,-96473.0,117659,226.2673,185.525,21.7887,520,6.87
+FixedTime,3,-102258.0,123335,237.1827,196.65,22.8398,520,8.31
+FixedTime,4,-99592.0,125798,241.9192,191.5231,23.2959,520,7.41
+FixedTime,5,-102471.0,128470,247.0577,197.0596,23.7907,520,8.3

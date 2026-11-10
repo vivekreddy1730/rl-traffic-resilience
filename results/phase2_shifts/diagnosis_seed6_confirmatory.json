@@ -1,0 +1,94 @@
+{
+  "seed": 6,
+  "ep_seed": 60000,
+  "overall_accuracy": 0.8905472636815921,
+  "confusion_matrix": [
+    [
+      18,
+      2,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      39,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      39,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      43,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      40
+    ]
+  ],
+  "class_names": [
+    "Nominal",
+    "Observation",
+    "Transition",
+    "Action",
+    "Reward"
+  ],
+  "classification_report": {
+    "Nominal": {
+      "precision": 1.0,
+      "recall": 0.45,
+      "f1-score": 0.6206896551724138,
+      "support": 40.0
+    },
+    "Observation": {
+      "precision": 0.9512195121951219,
+      "recall": 1.0,
+      "f1-score": 0.975,
+      "support": 39.0
+    },
+    "Transition": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 39.0
+    },
+    "Action": {
+      "precision": 0.6825396825396826,
+      "recall": 1.0,
+      "f1-score": 0.8113207547169812,
+      "support": 43.0
+    },
+    "Reward": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "accuracy": 0.8905472636815921,
+    "macro avg": {
+      "precision": 0.9267518389469609,
+      "recall": 0.89,
+      "f1-score": 0.881402081977879,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.9226207329592842,
+      "recall": 0.8905472636815921,
+      "f1-score": 0.8793003913419242,
+      "support": 201.0
+    }
+  }
+}

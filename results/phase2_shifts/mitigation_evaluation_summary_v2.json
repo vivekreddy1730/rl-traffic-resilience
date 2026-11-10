@@ -1,0 +1,50 @@
+{
+  "mean_false_fallback_rate": 0.0,
+  "held_out_shifts": [
+    {
+      "shift_name": "Observation",
+      "nominal_wait": 46.16898148148148,
+      "unmitigated_wait": 295.62879672897196,
+      "mitigated_wait": 255.8098602390561,
+      "recovery_ratio": 0.1596206445130703,
+      "recovery_ratio_str": "15.96%"
+    },
+    {
+      "shift_name": "Transition",
+      "nominal_wait": 46.16898148148148,
+      "unmitigated_wait": 51.57034215450415,
+      "mitigated_wait": 50.38252483927528,
+      "recovery_ratio": 0.2199107571470788,
+      "recovery_ratio_str": "21.99%"
+    },
+    {
+      "shift_name": "Action",
+      "nominal_wait": 46.16898148148148,
+      "unmitigated_wait": 78.38973799126637,
+      "mitigated_wait": 93.40998433096163,
+      "recovery_ratio": -0.466166780880327,
+      "recovery_ratio_str": "-46.62%"
+    },
+    {
+      "shift_name": "Policy_Collapse_Fallback",
+      "nominal_wait": 46.16898148148148,
+      "unmitigated_wait": 1313737.1875854372,
+      "mitigated_wait": 2825.7460383940715,
+      "recovery_ratio": 0.9978841470196955,
+      "recovery_ratio_str": "99.79%"
+    }
+  ],
+  "seed_7_confirmatory": {
+    "nominal_wait": 35.04773269689738,
+    "unmitigated_wait": 333.17899761336514,
+    "mitigated_wait": 200.70673076923077,
+    "recovery_ratio": 0.44434208160372324,
+    "recovery_ratio_str": "44.43%"
+  },
+  "misrouting_check": {
+    "clean_wait": 35.04773269689738,
+    "misrouted_wait": 65.87971698113208,
+    "delta": 30.8319842842347,
+    "pct_impact": 87.97140902345481
+  }
+}

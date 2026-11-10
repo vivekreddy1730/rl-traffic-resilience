@@ -1,0 +1,104 @@
+{
+  "overall_accuracy": 0.800807537012113,
+  "target_threshold": 0.85,
+  "is_passed": false,
+  "confusion_matrix": [
+    [
+      30,
+      2,
+      11,
+      39,
+      0
+    ],
+    [
+      3,
+      117,
+      0,
+      38,
+      0
+    ],
+    [
+      1,
+      0,
+      159,
+      3,
+      0
+    ],
+    [
+      9,
+      0,
+      20,
+      147,
+      0
+    ],
+    [
+      0,
+      0,
+      20,
+      2,
+      142
+    ]
+  ],
+  "class_names": [
+    "Nominal",
+    "Observation",
+    "Transition",
+    "Action",
+    "Reward"
+  ],
+  "classification_report": {
+    "Nominal": {
+      "precision": 0.6976744186046512,
+      "recall": 0.36585365853658536,
+      "f1-score": 0.48,
+      "support": 82.0
+    },
+    "Observation": {
+      "precision": 0.9831932773109243,
+      "recall": 0.740506329113924,
+      "f1-score": 0.8447653429602888,
+      "support": 158.0
+    },
+    "Transition": {
+      "precision": 0.7571428571428571,
+      "recall": 0.9754601226993865,
+      "f1-score": 0.8525469168900804,
+      "support": 163.0
+    },
+    "Action": {
+      "precision": 0.6419213973799127,
+      "recall": 0.8352272727272727,
+      "f1-score": 0.725925925925926,
+      "support": 176.0
+    },
+    "Reward": {
+      "precision": 1.0,
+      "recall": 0.8658536585365854,
+      "f1-score": 0.9281045751633987,
+      "support": 164.0
+    },
+    "accuracy": 0.800807537012113,
+    "macro avg": {
+      "precision": 0.815986390087669,
+      "recall": 0.7565802083227507,
+      "f1-score": 0.7662685521879388,
+      "support": 743.0
+    },
+    "weighted avg": {
+      "precision": 0.8249613617683146,
+      "recall": 0.800807537012113,
+      "f1-score": 0.7964605449940365,
+      "support": 743.0
+    }
+  },
+  "train_seeds": [
+    1,
+    2,
+    3
+  ],
+  "test_seeds": [
+    4,
+    5
+  ],
+  "model_path": "C:\\Users\\palla\\OneDrive\\Documents\\REINFORCEMENT LEARNING\\results\\phase2_shifts\\diagnosis_classifier.joblib"
+}

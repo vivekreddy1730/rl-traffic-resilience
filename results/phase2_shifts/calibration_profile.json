@@ -1,0 +1,26 @@
+{
+  "window_size": 50,
+  "feature_means": {
+    "mean_occupancy": 0.10594586947582627,
+    "occupancy_delta": 0.10288681173585693,
+    "mean_speed": 12.288863822397015,
+    "td_error": 30.459672972905047,
+    "q_spread": 35.27142672512238,
+    "reward": -0.037731132465711005,
+    "queue_len": 2.3984124492033017
+  },
+  "feature_stds": {
+    "mean_occupancy": 0.07570618973729365,
+    "occupancy_delta": 0.06281464545686963,
+    "mean_speed": 0.8993366266960457,
+    "td_error": 22.258475481229024,
+    "q_spread": 24.69058991626573,
+    "reward": 1.4112432624320934,
+    "queue_len": 2.1767576912643376
+  },
+  "anomaly_score_mean": 0.9070846886827589,
+  "anomaly_score_std": 0.4209481768071958,
+  "threshold_multiplier": 3.0,
+  "detection_threshold": 2.1699292191043464,
+  "consecutive_steps_required": 3
+}

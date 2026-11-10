@@ -1,0 +1,6 @@
+controller,seed,sum_neg_reward,cumulative_wait,avg_waiting_time,avg_delay,avg_queue_length,throughput_steps,elapsed_s
+MaxPressure,1,-503839.0,524052,996.2966,957.8688,97.0467,526,15.55
+MaxPressure,2,-435820.0,457303,872.7156,831.7176,84.6857,524,12.99
+MaxPressure,3,-347044.0,368661,706.2471,664.8352,68.2706,522,11.68
+MaxPressure,4,-512731.0,535516,1012.3176,969.2457,99.1696,529,14.83
+MaxPressure,5,-523604.0,545919,1033.9375,991.6742,101.0961,528,14.8
